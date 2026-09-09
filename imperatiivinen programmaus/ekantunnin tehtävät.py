@@ -98,7 +98,7 @@ print(vastaus)
 
 b = int(input('anna b'))
 a = int(input ('anna a ei neg'))
-
+#a pretty useful comment
 vastaus = 1
 for q in range (a):
     vastaus *= b

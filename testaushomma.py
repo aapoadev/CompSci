@@ -1,8 +1,10 @@
-b = int(input('anna b'))
-a = int(input ('anna a ei neg'))
+year = int(input('please give year to check: '))
 
-vastaus = 1
-for q in range (a):
-    vastaus *= b
-print(vastaus)
+leap = False
 
+if year % 4 == 0: 
+    leap = True
+if leap:
+    print(' on leappi')
+else:
+    print('ei oo')
