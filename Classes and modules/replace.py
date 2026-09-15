@@ -1,2 +1,5 @@
-txt = 'what is this?'
-print(txt.replace(' ', '<pause>', count=1))
+txt = 'foo.bar.what.txt'
+def last_dot_kept(s):
+    new = s.replace('.','-dot-', count=s.count('.')-1)
+    return new
+print(last_dot_kept(txt))
